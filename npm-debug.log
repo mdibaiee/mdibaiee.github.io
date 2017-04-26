@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/home/mahdi/.local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'lint',
+1 verbose cli   '--',
+1 verbose cli   '-f',
+1 verbose cli   'compact',
+1 verbose cli   'js/commento.js' ]
+2 info using npm@3.10.6
+3 info using node@v7.7.3
+4 verbose stack Error: missing script: lint
+4 verbose stack     at run (/home/mahdi/.local/lib/node_modules/npm/lib/run-script.js:151:19)
+4 verbose stack     at /home/mahdi/.local/lib/node_modules/npm/lib/run-script.js:61:5
+4 verbose stack     at /home/mahdi/.local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/home/mahdi/.local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/home/mahdi/.local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/home/mahdi/.local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at /home/mahdi/.local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:243:12
+4 verbose stack     at /home/mahdi/.local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+4 verbose stack     at tryToString (fs.js:448:3)
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:435:12)
+5 verbose cwd /home/mahdi/documents/workshop/blog
+6 error Linux 4.10.11-1-ARCH
+7 error argv "/usr/bin/node" "/home/mahdi/.local/bin/npm" "run" "lint" "--" "-f" "compact" "js/commento.js"
+8 error node v7.7.3
+9 error npm  v3.10.6
+10 error missing script: lint
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]

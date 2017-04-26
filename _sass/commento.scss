@@ -1,0 +1,29 @@
+#commento {
+  .commento-comments {
+    textarea {
+      width: 100%;
+      min-height: 70px;
+      padding: 1em 1rem;
+    }
+
+    textarea, input, button {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 3px;
+    }
+
+    .submit_area {
+      #root_name, button {
+        height: 40px;
+      }
+
+      #root_name {
+        width: 70%;
+        padding: 0.5em 1rem;
+      }
+
+      button {
+        width: 30%;
+      }
+    }
+  }
+}
